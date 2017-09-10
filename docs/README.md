@@ -28,7 +28,7 @@ She doesn't have any experience in Virtual Reality, but is interested in new tec
 
 ## Sketch
 
-This sketch is the one and only drawing I made to describe the game mechanics and environment in general it should be almost self explaining:
+This sketch is the one and only drawing I made to describe the game mechanics and environment in general it should self explanatory:
 
 ![Image of Sketch](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/sketch.png)
 
