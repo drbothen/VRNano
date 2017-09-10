@@ -171,9 +171,11 @@ Building this project was a great experience and I would recommend anyone intere
 
 It would be great to add more features to this application some of them could be:
 
-	1. Improved lightning
-	2. Add particle effects to the torches for added realism
-	3. Multiple iterations and levels
+<ol>
+    <li> Improved lightning </li>
+    <li> Add particle effects to the torches for added realism </li>
+    <li> Multiple iterations and levels </li>
+</ol>
 
 # Link to additional work
 Have a look at my other projects: 
