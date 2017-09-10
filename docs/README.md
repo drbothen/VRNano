@@ -40,45 +40,72 @@ Here are the testing outcomes from the different user tests. They all divide in 
 
 ### Main Questions:
 
-	1. What do you think about the scale of yourself, is everything as big or small as it should?
-	2. Is the mood well established? What do you think, where you are?
-	3. Is the experience comfortable? Do you experience any strange or confusing stuff?
+<ol>
+    <li>What do you think about the scale of yourself, is everything as big or small as it should?</li>
+    <li> Is the mood well established? What do you think, where you are? </li>
+    <li> Is the experience comfortable? Do you experience any strange or confusing stuff? </li>
+</ol>
 
 ### Iteration #1:
 
-	* Ryan, 20:
-	⋅⋅1. I seem to be a little bit smaller than I normally am.
-	⋅⋅2. It seems a bit yellowish, like inside a cave with torches.
-	⋅⋅3. Some objects are flickering.
+<ul>
+    <li> Ryan, 20: </li>
+    <ol>
+        <li>I seem to be a little bit smaller than I normally am.</li>
+        <li>It seems a bit yellowish, like inside a cave with torches.</li>
+        <li>Some objects are flickering.</li>
+    </ol>
+</ul>
 
-	* Lester, 26:
-	⋅⋅1. The room seems to be bigger than normal. 
-	⋅⋅2. It looks like some kind of cell, it makes me feel a little bit claustrophobic.
-	⋅⋅3. Some objects are flickering.
+<ul>
+    <li> Lester, 26: </li>
+    <ol>
+        <li>The room seems to be bigger than normal. </li>
+        <li>It looks like some kind of cell, it makes me feel a little bit claustrophobic.</li>
+        <li>Some objects are flickering.</li>
+    </ol>
+</ul>
+
 
 Here you can see the current state for the user testing:
 ![Before Iteration](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/Dungeon_Room_before_1.png)
 
 ### Findings:
-	* Good:
-	⋅⋅1. The ambient is great and is mystical as it should be.
-	
-	* Bad:
-	⋅⋅1. I think that a problem is in the camera position I raised the camera to make the protagonist feel taller.
-	⋅⋅2. Some objects are growing inside each other, I fixed that so flickering should stop
+
+<ul>
+    <li> Good: </li>
+    <ol>
+        <li>The ambient is great and is mystical as it should be.</li>
+    </ol>
+</ul>
+<ul>
+    <li> Bad: </li>
+    <ol>
+        <li>I think that a problem is in the camera position I raised the camera to make the protagonist feel taller.</li>
+        <li>Some objects are growing inside each other, I fixed that so flickering should stop</li>
+    </ol>
+</ul>
 
 After applying my findings the scenery changed marginally:
 ![After Findings](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/Dungeon_Room_after_1.png)
 
 ### Iteration #2:
 
-	* Ryan, 20:
-	⋅⋅1. Now the size seems to be good.
-	⋅⋅2. The flickering is gone.
+<ul>
+    <li> Ryan, 20: </li>
+    <ol>
+        <li>Now the size seems to be good.</li>
+        <li>The flickering is gone.</li>
+    </ol>
+</ul>
 
-	* Lester, 26:
-	⋅⋅1. The room shrank
-	⋅⋅2. Now I know that the room is standing on the ground.
+<ul>
+    <li> Lester, 26: </li>
+    <ol>
+        <li>The room shrank</li>
+        <li>Now I know that the room is standing on the ground.</li>
+    </ol>
+</ul>
 	 
 ## User Test UI Panels:
 
@@ -91,14 +118,21 @@ After applying my findings the scenery changed marginally:
 
 
 ### Iteration #1:
+<ul>
+    <li> Ryan, 20: </li>
+    <ol>
+        <li>Good contrast, good to read.</li>
+        <li>Know what it should do.</li>
+    </ol>
+</ul>
 
-	* Ryan, 20:
-	⋅⋅1. Good contrast, good to read
-	⋅⋅2. Know what it should do.
-
-	* Lester, 26:
-	⋅⋅1. Nice color, nice highlight
-	⋅⋅2. Clear.
+<ul>
+    <li> Lester, 26: </li>
+    <ol>
+        <li>Nice color, nice highlight</li>
+        <li>Clear.</li>
+    </ol>
+</ul>
 	 
 ### Findings:
 	* Good:
@@ -107,16 +141,20 @@ After applying my findings the scenery changed marginally:
 ## User Test on Movement:
 
 ### Main Questions:
-	1. Speed of movement?
-	2. Feel uncomfortable?
+<ol>
+    <li> Speed of movement? </li>
+    <li> Feel uncomfortable? </li>
+</ol>
 
 ### Iteration #1:
-
-	* Lester, 26:
-	⋅⋅1. Speed is a little bit too fast, I'm feeling dizzy.
-	⋅⋅2. Camera is positioned to near to the magic balls.
-	
-	
+<ul>
+    <li> Lester, 26: </li>
+    <ol>
+        <li>Speed is a little bit too fast, I'm feeling dizzy.</li>
+        <li>Camera is positioned to near to the magic balls.</li>
+    </ol>
+</ul>
+		
 ### Findings:
 	* Bad:
     ⋅⋅1. The speed was set to fast so I reduced the speed of travel.
@@ -124,20 +162,29 @@ After applying my findings the scenery changed marginally:
 		
 ### Iteration #2:
 
-	* Lester, 26:
-	⋅⋅1. Now it seems to be slower, but good.
-	⋅⋅2. Seems to be good now.
-	
+<ul>
+    <li> Lester, 26: </li>
+    <ol>
+        <li>Now it seems to be slower, but good.</li>
+        <li>Seems to be good now.</li>
+    </ol>
+</ul>
+
 	
 ## Sound user test and other stuff (Final)
 ### Main Questions:
-	1. Does the sound feel comfortable?
-	2. Other stuff?
+<ol>
+    <li>Does the sound feel comfortable?</li>
+    <li>Other stuff?</li>
+</ol>
 	
 ### Iteration #1:
-
-	* Lester, 26:
-	⋅⋅1. Failure sound is far too loud.
+<ul>
+    <li> Lester, 26: </li>
+    <ol>
+        <li>Failure sound is far too loud.</li>
+    </ol>
+</ul>
 
 ### Findings:
 
