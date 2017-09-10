@@ -30,7 +30,7 @@ She doesn't have any experience in Virtual Reality, but is interested in new tec
 
 This sketch is the one and only drawing I made to describe the game mechanics and environment in general it should be almost self explaining:
 
-![Image of Sketch]("Github raw sketch")
+![Image of Sketch](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/sketch.png)
 
 # User testing outcomes and iteration
 
