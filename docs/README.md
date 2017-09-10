@@ -19,7 +19,7 @@ Now I cover the complete process of designing this application. This will cover 
 ## Persona
 
 ### Rhonda, 33 - Stay at home mom
-![Image of Lisa]("Github Raw")
+![Image of Rhonda]("Github Raw")
 
 #### About:
 Rhonda is a stay at home mom, who has a sole interest in finding creative ways to educate her kids. One of her goals is to integrate technology with education to make learning more inspiring and fun for kids and parents. She loves to solve problems and to create challenging puzzles for her kids. 
