@@ -54,7 +54,7 @@ Here are the testing outcomes from the different user tests. They all divide in 
 	Lester, 26:
 	1.) The room seems to be bigger than normal. 
 	2.) It looks like some kind of cell, it makes me feel a little bit claustrophobic.
-	3.) Some objects are flickering, and the horizon behind the gate is very confusing. Is the room floating?
+	3.) Some objects are flickering.
 
 Here you can see the current state for the user testing:
 ![Before Iteration](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/Dungeon_Room_before_1.png)
@@ -66,10 +66,9 @@ Here you can see the current state for the user testing:
 	Bad:
 		- I think that a problem is in the camera position I raised the camera to make the protagonist feel taller.
 		- Some objects are growing inside each other, I fixed that so flickering should stop
-		- The skybox is confusing so added a new one with a horizon sun.
 
 After applying my findings the scenery changed marginally:
-![After Findings]("Iteration after affect")
+![After Findings](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/Dungeon_Room_after_1.png)
 
 ### Iteration #2:
 
