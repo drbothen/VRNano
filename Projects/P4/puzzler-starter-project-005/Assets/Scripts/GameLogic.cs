@@ -9,7 +9,6 @@ public class GameLogic : MonoBehaviour
     public GameObject startUI, restartUI;
     public GameObject startPoint, playPoint, restartPoint;
     public GameObject[] puzzleSpheres; //An array to hold our puzzle spheres
-    public GameObject failAudioHolder;
 
     public int puzzleLength = 5; //How many times we light up.  This is the difficulty factor.  The longer it is the more you have to memorize in-game.
     public float puzzleSpeed = 1f; //How many seconds between puzzle display pulses
@@ -21,16 +20,13 @@ public class GameLogic : MonoBehaviour
 
     private int currentSolveIndex = 0; //Temporary variable for storing the index that the player is solving for in the pattern.
 
+    public GameObject failAudioHolder;
 
     // Use this for initialization
     void Start()
     {
         puzzleOrder = new int[puzzleLength]; //Set the size of our array to the declared puzzle length
         generatePuzzleSequence(); //Generate the puzzle sequence for this playthrough.  
-        player.transform.position = startPoint.transform.position;
-
-        // print(player.transform.position);
-        // print(player.name);
     }
 
     // Update is called once per frame
@@ -79,10 +75,10 @@ public class GameLogic : MonoBehaviour
 
     public void startPuzzle()
     { //Begin the puzzle sequence
-      //Generate a random number one through five, save it in an array.  Do this n times.
-      //Step through the array for displaying the puzzle, and checking puzzle failure or success.
+        //Generate a random number one through five, save it in an array.  Do this n times.
+        //Step through the array for displaying the puzzle, and checking puzzle failure or success.
         startUI.SetActive(false);
-        //eventSystem.SetActive(false);
+        eventSystem.SetActive(false);
         iTween.MoveTo(player, playPoint.transform.position, 5f);
         CancelInvoke("displayPattern");
         InvokeRepeating("displayPattern", 3, puzzleSpeed); //Start running through the displaypattern function
@@ -174,7 +170,7 @@ public class GameLogic : MonoBehaviour
 
     public void finishingFlourish()
     { //A nice visual flourish when the player wins
-      //this.GetComponent<AudioSource>().Play(); //Play the success audio
+        //this.GetComponent<AudioSource>().Play(); //Play the success audio
         restartUI.SetActive(true);
         playerWon = true;
 
