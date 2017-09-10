@@ -12,6 +12,8 @@ In this video you can see how the app finally looks like.
 
 <iframe width="560" height="315" src="video link" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
+![Image of Running Game](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/Running_Game.gif)
+
 # The Process
 
 Now I cover the complete process of designing this application. This will cover Persona, Sketch and User Testing:
@@ -86,7 +88,9 @@ After applying my findings the scenery changed marginally:
 	1.) Appearance of panel
 	2.) Clear meaning
 
-![Panel Tests ]("Github Raw Panel")
+![Panel Tests Start](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/Start.png)
+![Panel Tests End](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/Congrats.png)
+
 
 ### Iteration #1:
 
@@ -148,18 +152,18 @@ This is a brief overview on the main elements of the game:
 
 ## Welcome UI (Start Game)
 This is the screen the user will see at the beginning of the application, after pressing the user flies into the dungeon.
-![Image of Welcome UI]("Raw First screen")
+![Image of Welcome UI](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/Start.png)
 
 ## Orbs (Play Game)
 You can see the main game mechanic, the orbs. The orbs light up in random combinations:
-![Image of Lightning orb]("Simon Orb")
+![Image of Lightning orb](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/Game_Simon.png)
 
  You have to repeat the order they did that by pointing and clicking on them:
-![Image of Selected Orb]("Selected Orb")
+![Image of Selected Orb](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/Orb_Selection.png)
 
 ## End UI (Restart Game)
 This is the screen users see after successfully finishing the puzzle:
-![Image of Finish UI]("Finished Puzzle")
+![Image of Finish UI](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/Congrats.png)
 
 # Conclusion
 
