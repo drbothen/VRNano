@@ -110,8 +110,10 @@ After applying my findings the scenery changed marginally:
 ## User Test UI Panels:
 
 ### Main Questions:
-	1. Appearance of panel
-	2. Clear meaning
+<ol>
+    <li> Appearance of panel </li>
+    <li> Clear meaning </li>
+</ol>
 
 ![Panel Tests Start](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/Start.png)
 ![Panel Tests End](https://raw.githubusercontent.com/drbothen/VRNano/master/docs/Congrats.png)
@@ -135,8 +137,12 @@ After applying my findings the scenery changed marginally:
 </ul>
 	 
 ### Findings:
-	* Good:
-	⋅⋅1. Everything seems to be clear
+<ul>
+    <li> Good: </li>
+    <ol>
+        <li>Everything seems to be clear</li>
+    </ol>
+</ul>
 	
 ## User Test on Movement:
 
@@ -156,9 +162,14 @@ After applying my findings the scenery changed marginally:
 </ul>
 		
 ### Findings:
-	* Bad:
-    ⋅⋅1. The speed was set to fast so I reduced the speed of travel.
-    ⋅⋅2. The camera was positioned to near to the orbs so moved the way point further back.
+
+<ul>
+    <li> Bad: </li>
+    <ol>
+        <li>The speed was set to fast so I reduced the speed of travel.</li>
+        <li>The camera was positioned to near to the orbs so moved the way point further back.</li>
+    </ol>
+</ul>
 		
 ### Iteration #2:
 
@@ -188,9 +199,13 @@ After applying my findings the scenery changed marginally:
 
 ### Findings:
 
-	* Bad:
-	⋅⋅1. I set the sound volume of the failure sound to 0.5 instead of 1.0, because it was set far too high.
-	
+<ul>
+    <li> Bad: </li>
+    <ol>
+        <li>I set the sound volume of the failure sound to 0.5 instead of 1.0, because it was set far too high.</li>
+    </ol>
+</ul>
+
 # Breakdown of final project
 
 This is a brief overview on the main elements of the game:
