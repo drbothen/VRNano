@@ -57,7 +57,7 @@ Here are the testing outcomes from the different user tests. They all divide in 
 	3.) Some objects are flickering, and the horizon behind the gate is very confusing. Is the room floating?
 
 Here you can see the current state for the user testing:
-![Before Iteration]("Raw First Iteration")
+![Before Iteration](https://github.com/drbothen/VRNano/blob/master/docs/Dungeon_Room_before_1.png)
 
 ### Findings:
 	Good:
