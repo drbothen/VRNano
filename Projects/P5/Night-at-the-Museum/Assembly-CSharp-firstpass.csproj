@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E09E26B6-FCF1-A16A-2B9B-B5D8392AA7DF}</ProjectGuid>
+    <ProjectGuid>{EA99CE36-83B0-A115-8A77-F45B2CA73734}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -55,25 +55,42 @@
      <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\MoveSample.cs" />
      <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\RotateSample.cs" />
      <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\SampleInfo.cs" />
-     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\Anton OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Basic Metal Texture Pack\readme.txt" />
+     <None Include="Assets\TextMesh Pro\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
      <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
-     <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
+     <None Include="Assets\TextMesh Pro\Fonts\Bangers - OFL.txt" />
+     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
      <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
-     <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
+     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
      <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -97,10 +114,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/jmagady/Documents/Dev/github/VRNano/Projects/P5/Night_at_the_Museum/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>C:/Users/jmagady/Documents/Dev/github/VRNano/Projects/P5/Night-at-the-Museum/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-1.0.55.56.0b11">
- <HintPath>C:/Users/jmagady/Documents/Dev/github/VRNano/Projects/P5/Night_at_the_Museum/Assets/TextMesh Pro/Plugins/TextMeshPro-1.0.55.56.0b11.dll</HintPath>
+ <HintPath>C:/Users/jmagady/Documents/Dev/github/VRNano/Projects/P5/Night-at-the-Museum/Assets/TextMesh Pro/Plugins/TextMeshPro-1.0.55.56.0b11.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

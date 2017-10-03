@@ -50,6 +50,7 @@ public class Waypoint : MonoBehaviour
 	[Header("Hide Distance")]
 	public float threshold						= 0.125f;
 
+	public GameObject playerCam;
 
 
 	void Awake()
@@ -140,7 +141,14 @@ public class Waypoint : MonoBehaviour
 		
 		_audio_source.Play();
 
-		Camera.main.transform.position 	= gameObject.transform.position;
+		Debug.Log ("Main Camera:" + Camera.main.name);
+		Debug.Log ("Previous Cords: " + Camera.main.transform.position);
+		Debug.Log("Moving to Cords: " + gameObject.transform.position);
+		Debug.Log ("Moving to Game Object: " + gameObject.name);
+
+		//Camera.main.transform.position 	= gameObject.transform.position;
+		playerCam.transform.position = gameObject.transform.position;
+		Debug.Log ("Main Camera Cords:" + Camera.main.transform.position);
 	}
 
 
